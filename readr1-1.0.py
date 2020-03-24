@@ -34,8 +34,8 @@ F2101 242627 1180816 00159 ///// 4
     
 """
 #导入数据分析包
-import pandas as pd
-import numpy as np
+# import pandas as pd
+# import numpy as np
 import os
 import sys
 import getopt

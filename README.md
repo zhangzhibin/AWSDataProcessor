@@ -1,37 +1,35 @@
-# About
+# About 关于
 This a python script for AWS (=Automatic Weather Station) data processing written for my lovely wife.
 
-# Install
-```
-pip3 install pandas
-```
+气象自动站数据处理脚本
 
-# Usage
+# Usage 使用方法
 ```
 python3 readr-1.0.py -i <inputFolder> -o <outputFolder> -t <threshhold> -r <override> -d
 ```
 
-* "-i", "--input"
+* "-i", "--input" 数据文件夹
 
 folder for source data
 
-* "-o", "--output"
+* "-o", "--output" 输出文件夹
 
 folder for output
 
-* "-t", "--threshhold"
+* "-t", "--threshhold" 输出阈值
 
 threshhold, default: 500
 
-* "-r", "--override": True or False
+* "-r", "--override" 是否覆盖旧文件，默认True
+Value: True or False 
 
 override the output files, default is Ture
 
-* "-d", "--debug"
+* "-d", "--debug" 开启详细日志，调试用
 
 enable debug output
 
-# Example
+# Example 示例
 ```
 python3 ./readr1-1.0.py  -i ./2019\@aws
 ======================================================
