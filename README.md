@@ -1,5 +1,5 @@
 # About
-This a python script for AWS () data processing written for my lovely wife.
+This a python script for AWS (=Automatic Weather Station) data processing written for my lovely wife.
 
 # Install
 ```
