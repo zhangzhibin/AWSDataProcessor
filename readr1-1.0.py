@@ -193,6 +193,7 @@ def extractDataFolder(dataPath, outPath, v, removeExistingFile):
         if not isHourFile(fileName):
             if DEBUG_MODE:
                 print("{} not at hour".format(fileName))
+            continue
 
         outFile = join(outPath, fileName+".txt")
         if removeExistingFile and os.path.exists(outFile):
